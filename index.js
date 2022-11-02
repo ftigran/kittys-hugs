@@ -4,7 +4,7 @@ const sendNotification = (text) => {
     fetch(`https://api.telegram.org/bot2060308660:AAEMQsfL7SKEXNVYibWiZ_E5nhPvgpGKwyw/sendMessage?chat_id=771611467r&text=${text}`)
 }
 
-sendNotification('Сайт открыт');
+sendNotification('Сайт открыт! Экран: ' + window.innerWidth);
 
 const hideElement = (selector) => {
     const element = document.querySelector(selector);

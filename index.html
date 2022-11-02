@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обняфки</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="media/favicon/icons8-hugging-face-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="media/favicon/icons8-hugging-face-32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="media/favicon/icons8-hugging-face-96.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="media/favicon/icons8-hugging-face-72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="media/favicon/icons8-hugging-face-96.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="media/favicon/icons8-hugging-face-57.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="media/favicon/icons8-hugging-face-60.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="media/favicon/icons8-hugging-face-72.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="media/favicon/icons8-hugging-face-76.png">
+    <meta name="msapplication-square70x70logo" content="media/favicon/icons8-hugging-face-70.png">
+    <meta name="msapplication-TileColor" content="#C0FFEE">
+    <meta name="application-name" content="Beautiful application name"></head>
+<body>
+    <div class="start">
+        <h1>Привет, тебя можно тронуть?🙂</h1>
+        <div class="buttons">
+            <button data-event="ready">Я готова!😍</button>
+            <button data-event="disagree">Нельзя!😠</button>
+        </div>
+    </div>
+    <div class="disagree hidden anim">
+        <h1>Жаль🥲, обязательно возвращайся</h1>
+    </div>
+    <div class="events hidden anim">
+        <h1>Выбери действие:</h1>
+        <div class="buttons">
+            <button data-event="hugg">Обнять🤗</button>
+            <button data-event="kiss">Поцеловать😚</button>
+            <button data-event="love">Признаться🥰</button>
+        </div>
+    </div>
+    <div class="event hugg hidden anim">
+        <div class="picture">
+            <img srcset="./media/pictures/hugg.webp">
+            <img class="prepic" srcset="./media/pictures/pre_hugg.webp">
+        </div>
+        <h1>Обнимаю!🤗</h1>
+    </div>
+    <div class="event kiss hidden anim">
+        <div class="picture">
+            <img srcset="./media/pictures/kiss.webp">
+        </div>
+        <h1>Целую!😘</h1>
+    </div>
+    <div class="event love hidden anim">
+        <div class="picture">
+            <img srcset="./media/pictures/love.webp">
+        </div>
+        <h1>Люблю!❤️</h1>
+        <div class="buttons">
+            <button data-event="telegram">Я тоже!🤍</button>
+        </div>
+    </div>
+</body>
+
+</html>
